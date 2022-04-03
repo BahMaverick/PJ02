@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Exercício</title>
+    <link rel="stylesheet" href="style02.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    <section>
+        <div>
+            <p>Ano de Nascimento: 
+                <input type="number" name="txtano" id="txtano" min="0">
+            </p>
+            <p>Gênero: 
+               <input type="radio" name="radgen" id="hom" checked>
+               <label for="hom">Homem</label>
+                <input type="radio" name="radgen" id="mul">
+                <label for="mul">Mulher</label>
+                
+
+            </p>
+            <p>Raça:
+             <input type="radio" name="radrac" id="amar">
+             <label for="amar">Amarelo(a)</label>
+             <input type="radio" name="radrac" id="bran">
+             <label for="bran">Branco(a)</label>
+             <input type="radio" name="radrac" id="Marr">
+             <label for="marr">Marrom(Brown)</label>
+             <input type="radio" name="radrac" id="pret">
+             <label for="pret">Preto(a)</label>
+            </p>
+            <p id="botão">
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div id="res">
+            Preencha os dados acima para ver o resultado.
+        </div>
+        <div id="res1"></div>
+    </section>
+    <footer>
+        <p>&copy;CursoemVideo</p>
+    </footer>
+    <script src="code0201.js"></script>
+</body>
+</html>
