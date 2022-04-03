@@ -1,4 +1,4 @@
-var nascimento = window.prompt('Qual sua data de nascimento?')
+
 function verificar() {
     var data = new Date()
     var ano = data.getFullYear()
@@ -139,8 +139,9 @@ function verificar() {
             }
             
         res.style.textAlign = 'center'
-        res.innerHTML = `Detectamos ${genero} com ${idade} anos. Com data de nascimento em ${nascimento}.`
+        res.innerHTML = `Detectamos ${genero} com ${idade} anos.`
         res1.appendChild(img)
     }
+
 }   
     
